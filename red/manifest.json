@@ -1,0 +1,33 @@
+{
+  "description": "Red theme",
+  "manifest_version": 2,
+  "name": "Red",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 50, 0, 0 ],
+         "button_background": [ 0, 0, 0, 0 ],
+         "frame": [ 191, 57, 57 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 0, 0, 0 ],
+         "tab_background_text": [ 64, 64, 64 ],
+         "tab_text": [ 0, 0, 0 ],
+         "toolbar": [ 240, 225, 225 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_tab_background_incognito": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0.75, 0.4 ],
+         "frame_incognito": [ 0, 0.6, 0.35 ]
+      }
+   },
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0"
+}

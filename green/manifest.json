@@ -1,0 +1,29 @@
+{
+  "description": "Green theme",
+  "manifest_version": 2,
+  "name": "Green",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 0, 0, 0 ],
+         "button_background": [ 0, 0, 0, 0 ],
+         "frame": [ 0, 138, 99 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_text": [ 0, 0, 0 ],
+         "tab_background_text": [ 64, 64, 64 ],
+         "tab_text": [ 0, 0, 0 ],
+         "toolbar": [ 223, 223, 223 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0, 0.5 ]
+      }
+   },
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0"
+}
